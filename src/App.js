@@ -7,15 +7,14 @@ import Footer from './Footer';
 
 function App() {
   return (
-    <div className='main-container'>
+    <div className="main-container">
       <Header />
       <Sidebar />
-      <Card title="Card1" />;
-      <Card title="Card2" />;
-      <Card title="Card3" />;
-      <Card title="Card4" />;
-      <Footer />;
-
+      <div className="card1"><Card /></div>
+      <div className="card2"><Card /></div>
+      <div className="card3"><Card /></div>
+      <div className="card4"><Card /></div>
+      <Footer />
     </div>
   );
 }
